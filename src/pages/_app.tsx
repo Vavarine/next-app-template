@@ -1,10 +1,12 @@
-import Home from './index'
+import header from 'next'
+import Header from '../components/Header';
 import '../styles/global.scss';
 
-function MyApp() {
+function MyApp({Component, pageProps}) {
   return(
     <>
-      <Home />
+      <Header /> 
+      <Component />
     </>
   )
 }

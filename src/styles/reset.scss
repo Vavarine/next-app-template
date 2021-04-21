@@ -5,6 +5,7 @@
 }
 
 body {
+  font: 500 rem(16) Inter, sans-serif;
   background-color: $background;
   color: $text;
 }
@@ -13,7 +14,18 @@ body,
 input,
 textarea,
 button {
-  font: 500 rem(16) sans-serif;
+  font: 500 rem(16), Inter sans-serif;
+  color: $text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: Lexend, sans-serif;
   color: $text;
 }
 

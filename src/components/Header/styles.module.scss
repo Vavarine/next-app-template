@@ -1,0 +1,29 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.headerContainer {
+  height: rem(106);
+  padding: rem(32) rem(64);
+
+  background-color: $white;
+  border-bottom: 1px solid $gray-100;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(32);
+
+  & p {
+    flex-grow: 1;
+    height: rem(32);
+    padding: 0px rem(32);
+    border-left: 1px solid $gray-100;
+
+    display: flex;
+    align-items: center;
+  }
+
+  & span {
+    text-transform: capitalize;
+  }
+}
